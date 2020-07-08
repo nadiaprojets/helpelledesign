@@ -68,14 +68,24 @@ span {
 }
 
 
-a{
+nav a{
     text-decoration: none;
     color: #5A0E13;
+}
+
+nav a:hover{
+    color: #ff7a7a;
+}
+
+a{
+    color: #9e4b51;
+    text-decoration: none;
 }
 
 a:hover{
     color: #ff7a7a;
 }
+
 
 ul{
     padding: 0;
