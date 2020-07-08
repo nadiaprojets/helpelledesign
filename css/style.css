@@ -213,6 +213,58 @@ img {
 }
 
 
+/* DÉBUT DU FORMULAIRE DE CONTACT*/
+label{
+  color: #fcd1d1;
+  font-size: 20px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(197, 122, 119);
+  border-radius: 6px;
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #5A0E13;
+  color: rgb(247, 175, 171);
+  font-size: 15px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 200px;
+}
+
+input[type=submit]:hover {
+  background-color: #e99b9b;
+  color: #5A0E13;
+}
+
+
+input{
+  background-color: #fcd1d1;
+}
+
+textarea{
+  background-color: #fcd1d1;
+}
+
+
+.container3 {
+  border-radius: 6px;
+  background-color: rgb(170, 100, 97);
+  padding: 20px;
+  margin: 30px 90px;
+}
+/*FIN DU FORMULAIRE DE CONTACT */
+
 
 footer{
     background-color: #5A0E13;
