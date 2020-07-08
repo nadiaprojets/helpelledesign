@@ -177,13 +177,18 @@ img {
     color: #ffe6e6;
     background: #5A0E13;
     padding: 10px 20px 0px 20px;
-    border: 1px solid #ff7a7a;
     border-radius: 10px;
     width: 190px;
     height: 35px;
     cursor: pointer;
     margin: auto;
     transition: all 1s;
+}
+
+.bouton:hover{
+    background: #f7c1c1;
+    border: none;
+    color: #a0464c;
 }
 
 
@@ -211,6 +216,7 @@ img {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 
 
 /* DÉBUT DU FORMULAIRE DE CONTACT*/
@@ -264,6 +270,7 @@ textarea{
   margin: 30px 90px;
 }
 /*FIN DU FORMULAIRE DE CONTACT */
+
 
 
 footer{
