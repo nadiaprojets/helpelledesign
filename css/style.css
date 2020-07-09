@@ -130,6 +130,18 @@ img {
     font-size: 1.4em;
     padding-bottom: 10px;
 }
+
+.photoronde img{
+    height: 160px;
+}
+
+.photoronde{
+    width: 300px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .photo{
     width: 500px;
     margin: 30px;
