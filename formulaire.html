@@ -5,6 +5,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Help'Elle ⎜ Projet Soutenance</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
         <link href="css/style.css" type="text/css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
@@ -21,7 +27,6 @@
 
             <!-- TITRE -->
             <h1>HELP'ELLE<br>l'annuaire des associations<br>d'aide aux femmes</h1>
-
         </header>
         <!-- FIN DE L'ENTETE -->
 
@@ -34,67 +39,67 @@
                 <li><a href="conseils.html">Conseils</a></li>
                 <li><a href="prevention.html">Prévention</a></li>
                 <li><a href="InscrireMonAssociation.html">Inscrire mon association</a></li>
-                <li><a href="monCompte.html">Mon compte</a></li>
             </ul>
         </nav>
-
-        <!--FIN DE LA BARRE DE NAVIGATION-->
+        <!--FIN DE LA BARRE DE NAVIGATION->
         
         <!--DÉBUT DU FORMULAIRE DE CONTACT-->
-        <section id="section">
+        <section id="contact">
             <div class="container">
-        <div class="heading">
-            <h2>Candidature</h2>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1">
-                <form id="contact-form" method="post" action="" role="form">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <label for="firstname">Prénom <span class="red">*</span></label>
-                            <input id="firstname" type="text" name="firstname" class="form-control" placeholder="Votre prénom">
-                            <p class="comments"></p>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="name">Nom<span class="red">*</span></label>
-                            <input id="name" type="text" name="name" class="form-control" placeholder="Votre Nom">
-                            <p class="comments"></p>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="email">Email<span class="red">*</span></label>
-                            <input id="email" type="text" name="email" class="form-control" placeholder="Votre Email">
-                            <p class="comments"></p>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="phone">Téléphone<span class="red">*</span></label>
-                            <input id="phone" type="tel" name="phone" class="form-control" placeholder="Votre Téléphone">
-                            <p class="comments"></p>
-                        </div>
-                        <div class="col-md-12">
-                            <label for="message">Message <span class="red">*</span></label>
-                            <textarea id="message" name="message" class="form-control" placeholder="Votre Message" rows="4"></textarea>
-                            <p class="comments"></p>
-                        </div>
-                        <div class="col-md-12">
-                            <p class="red"><strong>* Ces informations sont requises.</strong></p>
-                        </div>
-                        <div class="col-md-12">
-                            <input type="submit" class="button1" value="Envoyer">
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+                <div class="heading">
+                    <h2>Candidature</h2>
+                </div>
             
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <form id="contact-form" method="post" action="" role="form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="firstname">Prénom<span class="red">*</span></label>
+                                    <input id="firstname" type="text" name="firstname" class="form-control"
+                                        placeholder="Votre prénom">
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="name">Nom<span class="red">*</span></label>
+                                    <input id="name" type="text" name="name" class="form-control" placeholder="Votre Nom">
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email">Email<span class="red">*</span></label>
+                                    <input id="email" type="text" name="email" class="form-control" placeholder="Votre Email">
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="phone">Téléphone<span class="red">*</span></label>
+                                    <input id="phone" type="tel" name="phone" class="form-control" placeholder="Votre Téléphone">
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="message">Message <span class="red">*</span></label>
+                                    <textarea id="message" name="message" class="form-control" placeholder="Votre Message"
+                                        rows="4"></textarea>
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-12">
+                                    <p class="red"><strong>* Ces informations sont requises.</strong></p>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="bouton2" value="Envoyer">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
         </section>
         <!--FIN DU FORMULAIRE DE CONTACT-->
 
 
         <!-- DÉBUT DU FOOTER -->
         <footer>
-            <p>&copy;2020 Equipe Help'Elle - Tous droits réservés <a href="mentionslegales.html">⎜mentions légales</a><a href="formulaire.html">⎜contact ⎜</a></p>
+            <p class="pied">&copy;2020 Equipe Help'Elle - Tous droits réservés <a href="mentionslegales.html">⎜mentions légales</a><a href="formulaire.html">⎜contact ⎜</a></p>
         </footer>
         <!-- FIN DU FOOTER -->
 
