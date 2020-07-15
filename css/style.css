@@ -213,12 +213,9 @@ img {
     color: #a0464c;
 }
 
-
-
-
-/* POLICES */
-@font-face{
-    font-family: 'Passion One';
+.pied{
+    font-size: 1.2em;
+    color: #9e4b51;
 }
 
 
@@ -299,6 +296,68 @@ footer{
     background-color: #5A0E13;
     text-align: center;
     padding: 30px;
+}
+
+/*FORMULAIRE*/
+
+.container{
+    margin: 250px 50px 0px 50px;
+}
+
+label{
+    color: #f195a4;
+}
+
+p{
+    color: red;
+}
+
+#contact-form{
+    font-size: 20px;
+    background: #5A0E13;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.red{
+    color: #d60000;
+}
+.form-control{
+    height: 50px;
+    font-size: 18px;
+}
+#contact-form input[type=submit]{
+    margin: 20px auto 0px;
+    display: block;
+}
+.comments{
+    font-style: italic;
+    font-size: 18px;
+    color: #d82c2e;
+    height: 25px
+}
+#contact-form .thank-you{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #f195a4;
+}
+.bouton2{
+    border: 1px solid #ddd;
+    background: #f8bcc6;
+    color: #741302;
+    width: 100%;        
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 18px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in 0s;
+}
+.button2:hover{
+    background: #ffe6e6;
+    border-color: #f195a4;
+    color: #741302;;
 }
 
 /* MEDIA QUERY */
