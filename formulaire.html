@@ -44,57 +44,25 @@
         <!--FIN DE LA BARRE DE NAVIGATION->
         
         <!--DÉBUT DU FORMULAIRE DE CONTACT-->
-        <section id="contact">
-            <div class="container">
-                <div class="heading">
-                    <h2>Candidature</h2>
-                </div>
-            
-                <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <form id="contact-form" method="post" action="" role="form">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label for="firstname">Prénom<span class="red">*</span></label>
-                                    <input id="firstname" type="text" name="firstname" class="form-control"
-                                        placeholder="Votre prénom">
-                                    <p class="comments"></p>
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="name">Nom<span class="red">*</span></label>
-                                    <input id="name" type="text" name="name" class="form-control" placeholder="Votre Nom">
-                                    <p class="comments"></p>
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="email">Email<span class="red">*</span></label>
-                                    <input id="email" type="text" name="email" class="form-control" placeholder="Votre Email">
-                                    <p class="comments"></p>
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="phone">Téléphone<span class="red">*</span></label>
-                                    <input id="phone" type="tel" name="phone" class="form-control" placeholder="Votre Téléphone">
-                                    <p class="comments"></p>
-                                </div>
-                                <div class="col-md-12">
-                                    <label for="message">Message <span class="red">*</span></label>
-                                    <textarea id="message" name="message" class="form-control" placeholder="Votre Message"
-                                        rows="4"></textarea>
-                                    <p class="comments"></p>
-                                </div>
-                                <div class="col-md-12">
-                                    <p class="red"><strong>* Ces informations sont requises.</strong></p>
-                                </div>
-                                <div class="col-md-12">
-                                    <input type="submit" class="bouton2" value="Envoyer">
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-        <!--FIN DU FORMULAIRE DE CONTACT-->
+    <section id="section" class="container">
+        <div class="container3" id="contact">
+            <form action="action_page.php">
+    
+                <label for="fname">Nom</label>
+                <input type="text" id="fname" name="firstname" placeholder="Nom">
+    
+                <label for="lname">Prénom</label>
+                <input type="text" id="lname" name="lastname" placeholder="Prénom">
+    
+                <label for="subject">Je souhaite devenir bénénvole</label>
+                <textarea id="subject" name="subject" placeholder="Votre texte ici..." style="height:200px"></textarea>
+    
+                <input type="submit" href="" class="envoyez" value="Envoyez">
+    
+            </form>
+        </div>
+    </section>
+    <!--FIN DU FORMULAIRE DE CONTACT-->
 
 
         <!-- DÉBUT DU FOOTER -->
